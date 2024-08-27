@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio de Isabel Ferraz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="menu-toggle" id="menu-toggle">
+                &#9776;
+            </div>
+            <ul id="nav-list">
+                <li><a href="#sobre-mim">Sobre Mim</a></li>
+                <li><a href="#formacao">Formação Educacional</a></li>
+                <li><a href="#portfolio">Portfólio</a></li>
+                <li><a href="#contatos">Contatos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="sobre-mim" class="content">
+            <img src="perfil.jpg" alt="Foto de Isabel Ferraz">
+            <h1>Sobre Mim</h1>
+            <p>Meu nome é Isabel Ferraz de Andrade, tenho 18 anos e estou cursando Análise e Desenvolvimento de Sistemas no Centro Universitário Internacional Uninter. Como pessoa com deficiência, sempre vi a tecnologia como uma ferramenta poderosa de transformação. Desde pequena, me interesso por esse universo e hoje, meu principal objetivo ao estudar programação é utilizar a tecnologia para tornar o mundo mais acessível, atendendo a diversas necessidades e impactando vidas de forma positiva.</p>
+        </section>
+
+        <section id="formacao" class="content">
+            <h1>Formação Educacional</h1>
+            <p>Cursando em Análise e Desenvolvimento de Sistemas (Uninter).</p>
+            <p>Falo português e inglês em nível intermediário.</p>
+        </section>
+
+        <section id="portfolio">
+            <h1>Portfólio</h1>
+            <p>Veja alguns dos meus trabalhos anteriores:</p>
+            <div class="button-container">
+                <div class="portfolio-item">
+                    <p>Home page de aplicação que avalia a acessibilidade dos locais por meio de comentários de outras pessoas que já frequentaram o estabelecimento.</p>
+                    <a href="https://meusite1.com" class="button" target="_blank">Projeto 1</a>
+                </div>
+                <div class="portfolio-item">
+                    <p>Página de PetShop "Divertido".</p>
+                    <a href="https://meusite2.com" class="button" target="_blank">Projeto 2</a>
+                </div>
+            </div>
+        </section>
+        
+        <section id="contatos">
+            <h1>Contatos</h1>
+            <p>Gostou do meu trabalho e sentiu que podemos trabalhar juntos no alcance de objetivos? Ou confia no meu trabalho e acha que podemos criar algo incrível juntos? Manda uma mensagem! Vamos bater um papo para transformar o seu sonho em um site único, cheio de personalidade e acessível para todos. Vamos juntos tornar isso realidade!!</p>
+            <ul>
+                <li><a href="https://www.instagram.com/isa_bel_andrade/" class="button" target="_blank">Instagram</a></li>
+                <li><a href="mailto:isabelferrazandrade@gmail.com" class="button">E-mail</a></li>
+                <li><strong>WhatsApp:</strong> (41) 99871-7698</li>
+            </ul>
+            <form>
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Mensagem:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+
+    <footer>
+        <p>&copy; 2024 Isabel Ferraz</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
